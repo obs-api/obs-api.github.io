@@ -11,9 +11,9 @@ Note: Contact your Orange Representative for the Specific Catalog
 
 List all types available
 
-| type         | Description     |  |
+| type         | Description     |  | 
 |:--------------:|-----------|------------|
-| *C_GENERIC_FR_1*      | Generic request  (France only)  |    [view](http://)     |
+| *C_GENERIC_FR_1*      | Generic request  (France only)  |    [view](http://) <a href="https://obs-api.github.io/documentation/Request_R_BVPN_FR_1">links text</a>     |
 | *C_BVPN_FR_1*      | Creation request of a BVPN site (France only)  |   <a href="https://obs-api.github.io/documentation/Request_C_GENERIC_FR_1">links text</a>       |
 | *U_BVPN_FR_1*      | Update request of a BVPN site  (France only)  |    [view](https://obs-api.github.io/documentation/Request_U_BVPN_FR_1)     |   
 | *R_BVPN_FR_1*| Disconnection request for a BVPN Site (France)  (France only)|   [view](https://obs-api.github.io/documentation/Request_R_BVPN_FR_1)    |
