@@ -21,6 +21,18 @@ The request is compatible with Standard and customized catalogs.
 | `servicePoint.id`| `string`     | (1) |  Orange Single Identifier of the Service Point. This information can be found in the API Core Information in the resource _servicePoints_..       |
 | `servicePoint.customerReference`      |  `string`  | (1) | Customer Reference of the Service Point.       |
 | `servicePoint.reference`      |  `string`  | (1) |  Commercial Reference of the Service Point.       |
+| `contacts.primary.title`      |  `string`  | required |  Title of the person. Authorized Values are: M., Mrs.  |
+| `contacts.primary.firstName`      |  `string`  | required | First name of the person.   |
+| `contacts.primary.lastName`      |  `string`  | required |  Last name of the person  |
+| `contacts.primary.phone`      |  `string`  | required |   Phone Number of the person. The format must be + (TODO) |
+| `contacts.primary.mobile`      |  `string`  | required |   Mobile Phone Number of the person. The format must be + (TODO) |
+| `contacts.primary.email`      |  `string`  | required |  Email of the person. |
+| `contacts.secondary.title`      |  `string`  | optional | Title of the person. Authorized Values are: M., Mrs.    |
+| `contacts.secondary.firstName`      |  `string`  | optional |  First name of the person.   |
+| `contacts.secondary.lastName`      |  `string`  | optional |Last name of the person   |
+| `contacts.secondary.phone`      |  `string`  | optional | Phone Number of the person. The format must be + (TODO)   |
+| `contacts.secondary.mobile`      |  `string`  | optional |   Mobile  Phone Number of the person. The format must be + (TODO) |
+| `contacts.secondary.email`      |  `string`  | optional | Email of the person.    |
 | `profile`| `string`     | required | Name of the Profile.<br>Possible values: _FDJ CONNECT OPTIMA 8M_, _FDJ CONNECT OPTIMA 18M_, _FDJ CONNECT FTTH_,   _FDJ CONNECT ULTIME_, _FDJ CONNECT CELL_   |
 | `options.bandwidth`      |  `string`  | required | *Débit*<br>Possible values: _8M_, _1M_, _Extended_       |
 | `options.wifi`      |  `string`  |  required | *Wifi complémentaire*   TODO check Quantity???   |
